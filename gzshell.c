@@ -32,13 +32,12 @@ int main()
     else if (str[0] == 'v' && str[1] == '\n')
     {
       printf(VERSION);
-      memset(str,0x00,LENGTH);
     }
     else
     {
       printf("%s\n",str);
-      memset(str,0x00,LENGTH);
     }
+    memset(str,0x00,LENGTH);
   }
   return 0;
 }
